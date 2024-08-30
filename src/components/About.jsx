@@ -11,7 +11,7 @@ function About() {
         foundation dating back to 2017, we have evolved from trading safety
         products to becoming a holistic service provider. Our journey has been
         fueled by dedication, expertise, and a drive to ensure the safety and
-        well-being of individuals, properties, and businesses.
+        well-being of individuals, properties, and businesses. 
       </p>
     </section>
   );
