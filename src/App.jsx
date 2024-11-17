@@ -18,7 +18,7 @@ function App() {
       <Services />
       <Offerings />
       <Vision />
-      <Founder />      
+      {/* <Founder /> */}
       <Footer />
     </div>
   );

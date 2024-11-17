@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '/images/logo.png';
+import logo from '/images/logo.jpeg';
 import './Header.css'; // Import the CSS file
 
 function Header() {
@@ -19,7 +19,7 @@ function Header() {
           <a href="#services" className="nav-link">Our Services</a>
           <a href="#offerings" className="nav-link">Our Offerings</a> {/* New Link */}
           <a href="#vision" className="nav-link">Our Vision</a> {/* New Link */}
-          <a href="#founder" className="nav-link">Our Founder</a> {/* New Link */}
+          {/* <a href="#founder" className="nav-link">Our Founder</a> New Link */}
           <a href="#contact" className="nav-link">Contact Us</a>
         </nav>
         <div className={`hamburger ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>

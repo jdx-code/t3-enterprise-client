@@ -1,5 +1,5 @@
 import React from 'react';
-import offeringsImage from '/images/services.png';
+import offeringsImage from '/images/offerings.jpg';
 
 function Offerings() {
   return (
@@ -15,10 +15,14 @@ function Offerings() {
 const styles = {
   offerings: {
     padding: '50px 20px',
+    fontSize: "18px", // Standard font size for paragraph
+    lineHeight: "1.6", // Better readability
+    textAlign: "justify", // Optional: Aligns the paragraph neatly
   },
   heading: {
     color: '#ffcc00',
     fontSize: '36px',
+    textAlign: "center",
   },
   offeringsImage: {
     maxWidth: '100%',

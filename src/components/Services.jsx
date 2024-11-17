@@ -1,5 +1,5 @@
 import React from 'react';
-import servicesImage from '/images/services.png';
+import servicesImage from '/images/services.jpg';
 
 function Services() {
   return (
@@ -39,10 +39,14 @@ function Services() {
 const styles = {
   services: {
     padding: '50px 20px',
+    fontSize: "18px", // Standard font size for paragraph
+    lineHeight: "1.6", // Better readability
+    textAlign: "justify", // Optional: Aligns the paragraph neatly   
   },
   heading: {
     color: '#ffcc00',
     fontSize: '36px',
+    textAlign: "center",
   },
   servicesImage: {
     maxWidth: '100%',
