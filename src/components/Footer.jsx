@@ -4,6 +4,7 @@ function Footer() {
   return (
     <footer id="contact" style={styles.footer}>
       <p>Contact Us: 9864278059 | T3enterprise01@gmail.com</p>
+      <p>Address : Paltan Bazar, Opp. SAI Gate, Near Nepali Mandir, Guwahati-08, Assam</p>
     </footer>
   );
 }

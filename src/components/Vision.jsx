@@ -9,7 +9,7 @@ function Vision() {
       <p>Thank you for choosing T3 Enterprise. Your safety is our priority, and we are here to serve you every step of the way.</p>      
       <img src={visionImage} alt="Fire Fighting Equipment" style={styles.visionImage} />
 
-      <p><strong>Address : Paltan Bazar, Opp. SAI Gate, Near Nepali Mandir, Guwahati-08, Assam</strong></p>
+      {/* <p><strong>Address : Paltan Bazar, Opp. SAI Gate, Near Nepali Mandir, Guwahati-08, Assam</strong></p> */}
     </section>
   );
 }
